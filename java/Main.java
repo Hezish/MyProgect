@@ -4,11 +4,12 @@ public class Main {
 
         Person person = new Person();
         person.setName("koko");
+        person.setLastName("Ben Koko");
 
-        for (int i = 0; i <200 ; i++) {
+        for (int i = 0; i <20 ; i++) {
 
             System.out.println(i);
         }
-
+        person.ptintPerson();
     }
 }

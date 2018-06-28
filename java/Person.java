@@ -1,13 +1,17 @@
 import lombok.*;
-import lombok.Getter;
 
+@Getter
+@Setter
 public class Person {
 
-    @Getter
-    @Setter
+
     private String name;
     private String LastName;
 
 
+public void ptintPerson(){
 
+    System.out.println(this.name + " " + this.LastName);
+
+}
 }

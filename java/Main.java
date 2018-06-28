@@ -5,20 +5,26 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<String> myList = new ArrayList<String>();
-
-        Person person = new Person();
-        person.setName("koko");
+        ArrayList<Person> persons = new ArrayList<Person>();
+        Person p = new Person();
 
         for (int i = 0; i < 20; i++) {
 
-            myList.add("koko" + i);
+            persons.add(new Person());
 
         }
 
-        for (String s : myList) {
-            System.out.println(s);
 
-        }
+        p = persons.get(0);
+
+        p.setLastName("koko");
+        p.setName("lolo");
+        p.ptintPerson();
+
+        p = persons.get(2);
+        p.ptintPerson();
+
+
 
     }
 }

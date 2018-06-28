@@ -2,7 +2,6 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
 public class Person {
 
 
